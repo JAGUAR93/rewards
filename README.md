@@ -1,17 +1,58 @@
-# bon
+# Rewards Flutter UI
 
-A new Flutter project.
+📱 Features Implemented
 
-## Getting Started
+Display of a reward message:
 
-This project is a starting point for a Flutter application.
+"You've unlocked a $10 reward!"
 
-A few resources to get you started if this is your first Flutter project:
+A "Choose Brand" button (simulates navigation action).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+A list of 3 mock credit card bills with:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# rewards
+Bill Amount
+
+Date
+
+Payment Status
+
+Bonus: Added a subtle animation/micro-interaction for better user experience.
+
+# 🚀 Tech Stack
+
+Framework: Flutter
+
+Language: Dart
+
+🛠️ Environment
+
+Flutter version: 3.29.3 (stable channel)
+
+OS: macOS 15.6 (Darwin-arm64)
+
+Locale: en-IN
+
+📂 Project Structure
+lib/
+ ├── main.dart          # Entry point
+ ├── rewardUnlockScreen.dart # UI screen implementation
+ └── widgets/           # Reusable UI components (cards, buttons)
+
+# 📦 Installation & Run
+
+Clone the repository:
+
+git clone https://github.com/JAGUAR93/rewards.git
+cd rewards
+
+Get dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+📲 APK
+
+Download APK: Diawi Link
